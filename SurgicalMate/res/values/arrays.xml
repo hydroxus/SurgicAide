@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ORnumber">  
+        <item>@string/room0</item>
+        <item>@string/room1</item>  
+        <item>@string/room2</item>  
+        <item>@string/room3</item>  
+        <item>@string/room4</item>
+    </string-array> 
+    
+    <string-array name="SurgeonName">  
+        <item>@string/surgName0</item> 
+        <item>@string/surgName1</item>  
+        <item>@string/surgName2</item>  
+        <item>@string/surgName3</item>  
+        <item>@string/surgName4</item>
+    </string-array> 
+    
+    <string-array name="Procedure"> 
+        <item>@string/op0</item>  
+        <item>@string/op1</item>  
+        <item>@string/op2</item>  
+        <item>@string/op3</item>  
+        <item>@string/op4</item>
+    </string-array> 
+    
+</resources>

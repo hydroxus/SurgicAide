@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+    
+		<TextView
+            android:id="@+id/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LoginPageTitle"
+            android:layout_gravity="center_horizontal"
+        	android:layout_marginTop="100dp"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt"
+            android:typeface="serif" />
+		
+     	<EditText
+   		android:id="@+id/etUsername"
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center_horizontal"
+        android:layout_width="170dp" 
+        android:hint="Username"
+   		/>
+		
+		<EditText
+  	  	android:id="@+id/etPassword"
+ 	  	android:layout_height="wrap_content"
+ 	  	android:inputType="textPassword"
+ 	  	android:layout_gravity="center_horizontal"
+        android:layout_width="170dp" 
+        android:hint="Password"
+		/>
+		
+		<Button
+   		android:id="@+id/btn_login"
+   		android:layout_height="wrap_content"
+   		android:onClick="login"
+   		android:text="@string/Login"
+   		android:layout_gravity="center_horizontal"
+   		android:layout_width="140dp" 
+		/>
+		
+		<Button
+   		android:id="@+id/btn_cancel"
+   		android:layout_width="140dp" 
+   		android:layout_height="wrap_content"
+   		android:onClick="cancel"
+   		android:text="@string/Cancel"
+   		android:layout_gravity="center_horizontal" 
+		/>
+
+
+</LinearLayout>

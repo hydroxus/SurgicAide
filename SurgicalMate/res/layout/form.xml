@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:background="@drawable/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NewSessionTitle"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt"
+            android:typeface="serif" />
+        
+        
+        <EditText
+            android:id="@+id/EditTextPatientID"
+            android:layout_height="fill_parent"
+            android:hint="@string/PatientID"
+            android:inputType="text"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp" >           
+        </EditText>
+
+        
+
+        <Spinner
+            android:id="@+id/SpinnerORnumber"
+            android:layout_height="wrap_content"
+            android:prompt="@string/ORnumber"
+            android:layout_width="200dp"
+            android:layout_gravity="center_horizontal"
+            android:entries="@array/ORnumber"></Spinner>
+
+        <Spinner
+            android:id="@+id/SpinnerSurgeon"
+            android:layout_height="wrap_content"
+            android:prompt="@string/SurgeonName"
+            android:layout_width="200dp"
+            android:layout_gravity="center_horizontal"
+            android:entries="@array/SurgeonName"></Spinner>
+        
+        <Spinner
+            android:id="@+id/ProcedureType"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:prompt="@string/Procedure"
+            android:layout_gravity="center_horizontal"
+            android:entries="@array/Procedure"></Spinner>
+
+
+         <Button
+             android:id="@+id/Continue2Menu"
+             android:layout_width="160dp"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:onClick="goToMainMenu"
+             android:text="@string/gotomainMenu"
+             android:layout_below="@+id/ProcedureType"
+        	android:layout_marginTop="10dp"></Button>
+       <Button
+            android:id="@+id/BackButton"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="goToFrontPage"
+            android:text="@string/backbutton"
+            android:layout_below="@+id/Continue2Menu"></Button>
+        
+        
+    </LinearLayout>
+</ScrollView>

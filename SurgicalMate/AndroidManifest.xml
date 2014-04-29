@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.SurgicalMate"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/SpinnerTheme" >
+        <activity
+            android:name="com.example.SurgicalMate.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.SurgicalMate.NewSessionPage"
+            android:label="@string/title_activity_new_session_page"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.example.SurgicalMate.MainMenu"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.SurgicalMate.DBAdapter"
+            android:label="@string/title_activity_dbadapter" >
+        </activity>
+        <activity
+            android:name="com.example.SurgicalMate.AssignmentTracker"
+            android:label="@string/title_activity_assignment_tracker" >
+        </activity>
+        <activity
+            android:name="com.example.SurgicalMate.PatientDB"
+            android:label="@string/title_activity_patient_db"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.SurgicalMate.DatabaseTableLayout"
+            android:label="@string/title_activity_database_table_layout"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.SurgicalMate.MedicineDB"
+            android:label="@string/title_activity_medicine_db"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.SurgicalMate.ToolDB"
+            android:label="@string/title_activity_tool_db"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.SurgicalMate.ToolsTableLayout"
+            android:label="@string/title_activity_tools_table_layout"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.SurgicalMate.CreateToolDatabase"
+            android:label="@string/title_activity_create_tool_database"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.example.SurgicalMate.UserInput"
+            android:label="@string/title_activity_user_input"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.SurgicalMate.Testing"
+            android:label="@string/title_activity_testing"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.SurgicalMate.ScanItemIn"
+            android:label="@string/title_activity_scan_item_in"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.SurgicalMate.LoginPassword"
+            android:label="@string/title_activity_login_password"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.SurgicalMate.Databases"
+            android:label="@string/title_activity_databases"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.SurgicalMate.About"
+            android:label="@string/title_activity_about"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

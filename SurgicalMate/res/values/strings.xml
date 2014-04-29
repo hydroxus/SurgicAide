@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SurgicAide</string>
+    <string name="tableHeading">Patient Database</string>
+    <string name="DBcreateTitle">Create Database</string>
+    <string name="ItemName">Item Name</string>
+    <string name="Quantity">Quantity</string>
+    <string name="SaveEntry">Save Entry</string>
+    <string name="CreateDB">Finish</string>
+    <string name="goToDB">Create Item Database</string>
+    <string name="mainmenu">Back</string>
+    <string name="action_settings">Settings</string>
+    <string name="NewSessionTitle">New Session</string>
+    <string name="LoginPageTitle">Login</string>
+    <string name="DatabasepageTitle">Database Menu</string>
+    <string name="LoginTitle">Databases</string>
+    <string name="AboutTitle">About</string>
+    <string name="Login">Login</string>
+    <string name="Cancel">Cancel</string>
+    <string name="PatientID">Patient ID #</string>
+    <string name="ORnumber">Operating Room</string>
+    <string name="SurgeonName">Surgon Name</string>
+    <string name="Procedure">Procedure Type</string>
+    <string name="feedbackbutton">Save</string>
+    <string name="gotomainMenu">Continue</string>
+    <string name="backbutton">Back</string>
+    <string name="room0">Operating Room #</string>
+    <string name="room1">#1</string>
+    <string name="room2">#2</string>
+    <string name="room3">#3</string>
+    <string name="room4">#4</string>
+    <string name="surgName0">Surgeon</string>
+    <string name="surgName1">Dr. Standish</string>
+    <string name="surgName2">Dr. Khajeheian</string>
+    <string name="surgName3">Dr. Dawes</string>
+    <string name="surgName4">Dr. Alasvand</string>
+    <string name="op0">Surgical Procedure</string>
+    <string name="op1">Bariatric Surgery</string>
+    <string name="op2">Cardiac Surgery</string>
+    <string name="op3">Thoracic Surgery</string>
+    <string name="op4">Colon Surgery</string>
+    <string name="title_activity_new_session_page">NewSessionPage</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_testing_inputs">TestingInputs</string>
+    <string name="title_activity_parse">Parse</string>
+    <string name="title_activity_parse1">Parse1</string>
+    <string name="title_activity_parse_put">ParsePut</string>
+    <string name="title_activity_dbadapter">DBAdapter</string>
+    <string name="title_activity_assignment_tracker">AssignmentTracker</string>
+    <string name="title_activity_addassignment">Addassignment</string>
+    <string name="title_activity_patient_db">PatientDB</string>
+    <string name="title_activity_database_table_layout">DatabaseTable</string>
+    <string name="title_activity_nothing">Nothing</string>
+    <string name="title_activity_medicine_db">MedicineDB</string>
+    <string name="title_activity_tool_db">ToolDB</string>
+    <string name="title_activity_tools_table_layout">ToolsTableLayout</string>
+    <string name="title_activity_create_tool_database">CreateToolDatabase</string>
+    <string name="title_activity_user_input">UserInput</string>
+    <string name="title_activity_testing">Testing</string>
+    <string name="title_activity_scan_item_in">ScanItemIn</string>
+    <string name="title_activity_zero_warning">ZeroWarning</string>
+    <string name="title_activity_nothing_selected_spinner_adapter">NothingSelectedSpinnerAdapter</string>
+    <string name="title_activity_login_password">LoginPassword</string>
+    <string name="title_activity_databases">Databases</string>
+    <string name="title_activity_about">About</string>
+    <string name="about">\t SurgicAide is an app that helps you keep track of the tools and medicine used
+        during a surgical procedure. By scanning items out using QR codes before use, and scanning
+        them back in after use, the app will keep a track of all that is missing.\n\n
+        
+        \t Once you have started a new session, you are required to input all the Patient information
+        and the corresponding surgical information. Once the session is complete, this data is
+        transferred over a secure ftp server for later reference.\n\n
+        
+        \t After completing the patient information form, you are taken to the Main Menu where you can
+        begin scanning items in and out. Prior to using a tool or medicine, scan the item\'s QR code
+        and enter the quantity of the item that is being removed from the toolbox. Upon returning the item to the toolbox, scan its QR code once again and enter the quantity
+        being returned.\n\n
+        
+        \t Once the surgical procedure is complete and all items have been returned, press the End Session
+        button. Upon pressing this button, the data of all the medicine used and tools that are missing will
+        be sent over a secure ftp server for later reference.\n\n
+        
+        \t The user can also view the database on the app through the database section in order to view if
+        any items or tools are missing.
+        </string>
+
+</resources>

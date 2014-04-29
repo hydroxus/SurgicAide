@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Databases" >
+
+    <TextView
+            android:id="@+id/DBTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DatabasepageTitle"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt"
+            android:typeface="serif"
+            android:layout_marginTop="65dp" />
+
+    <Button
+             android:id="@+id/ViewDatabase"
+             android:layout_width="160dp"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:onClick="goToDB"
+             android:text="@string/goToDB"
+             android:layout_below="@+id/DBTitle"
+        	 android:layout_centerHorizontal="true"
+        	 android:layout_marginTop="25dp" />
+    
+  	 <Button
+	        android:id="@+id/toolDB"
+	        android:layout_width="160dp"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:text="View Tool DB" 
+	        android:layout_below="@+id/ViewDatabase"
+        	android:layout_marginTop="22dp"
+  	 		android:onClick="ViewToolDB"  />
+    <Button
+	        android:id="@+id/PatientDB"
+	        android:layout_width="160dp"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:text="View Patient DB"
+	        android:layout_below="@+id/toolDB"
+        	android:layout_marginTop="22dp"
+        	android:onClick="ViewPatDB" />  
+        	
+     <Button
+	        android:id="@+id/Back2Main"
+	        android:layout_width="160dp"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:text="Home Page"
+	        android:layout_below="@+id/PatientDB"
+        	android:layout_marginTop="22dp"
+        	android:onClick="BackHome" /> 
+    
+</RelativeLayout>

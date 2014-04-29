@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/DBcreateTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DBcreateTitle"
+            android:layout_gravity="center_horizontal"
+            android:textSize="10pt" />
+
+        <EditText
+            android:id="@+id/ItemName"
+            android:layout_height="fill_parent"
+            android:hint="@string/ItemName"
+            android:inputType="text"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp" >           
+        </EditText>
+		
+        <EditText
+            android:id="@+id/Quantity"
+            android:layout_height="fill_parent"
+            android:hint="@string/Quantity"
+            android:inputType="number"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp" >           
+        </EditText>
+        
+
+        <Button
+            android:id="@+id/SaveEntry"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="SaveItemEntry"
+            android:text="@string/SaveEntry" ></Button>
+
+         <Button
+             android:id="@+id/CreateDB"
+             android:layout_width="160dp"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:onClick="goToDB"
+             android:text="@string/CreateDB" ></Button>
+        
+        
+    </LinearLayout>
+</ScrollView>
